@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "for_nutrition"
+version = "0.1.0"
+description = ""
+authors = ["Asadbek Muxtorov <https://asadbek_muxtorov.t.me>"]
+readme = "README.md"
+packages = [{include = "for_nutrition"}]
+
+[tool.poetry.dependencies]
+python = "^3.10.3"
+aiogram = "^2.25.2"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
